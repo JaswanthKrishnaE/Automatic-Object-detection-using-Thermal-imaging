@@ -2,23 +2,39 @@
 
 ## Overview
 
-This Guava Disease Detection project employs a multi-model approach to identify and classify diseases in guava leaves and fruits. Each model contributes to a specific aspect of the detection process.
+This Guava Disease Detection project implements a multi-model strategy to identify and classify diseases in guava leaves and fruits. Each model contributes uniquely to the detection process, enhancing accuracy and specificity.
 
 #### Thermal Object Detection with YOLO v8
 
-Utilizing YOLO v8, the project achieves robust thermal object detection with an mAP of 67% recall of 96.9%. The model excels in identifying guava fruits in thermal images, laying the foundation for subsequent disease classification.
+Utilizing YOLO v8, the project achieves robust thermal object detection with an mAP (mean Average Precision) of 67% and recall of 96.9%. The model excels in identifying guava fruits in thermal images, laying the foundation for subsequent disease classification.
 
-#### Guava Fruit Disease Classification with DenseNet121
+#### Guava Fruit Classification with DenseNet121
 
-Fine-tuning DenseNet121 results in a guava fruit disease classification model boasting an accuracy of around 90%. Leveraging the efficiency of DenseNet's feature extraction, the model accurately identifies and categorizes diseases affecting guava fruits.
+Fine-tuning DenseNet121 results in a guava fruit disease classification model boasting an accuracy of around 92.3%. Leveraging the efficiency of DenseNet's feature extraction, the model accurately identifies and categorizes diseases affecting guava fruits.
+
+#### Guava Fruit Classification with Machine Learning Models
+
+- **Logistic Regression**: A logistic regression model provides an accuracy of 88% and a precision of 91%. This model contributes to disease classification in guava fruits, showcasing robust performance in identifying and categorizing specific diseases.
+
+- **Support Vector Machine (SVM)**: The SVM model achieves an accuracy of 88% along with a precision of 91%. It significantly aids in disease classification, offering reliable identification and classification of diseases in guava fruits.
+
+
+#### Guava Fruit Classification using Custom CNN Model
+
+The custom CNN model for guava leaf disease classification achieves an accuracy of approximately 92%. Trained on a dataset specific to guava leaves, this model excels in recognizing and classifying various diseases affecting guava foliage.
 
 #### Guava Leaf Disease Classification using Custom CNN Model
 
-The custom CNN model for guava leaf disease classification achieves an accuracy of approximately 90%. Trained on a dataset specific to guava leaves, this model excels in recognizing and classifying various diseases affecting guava foliage.
+The custom CNN model for guava leaf disease classification achieves an outstanding test accuracy of 98%. Trained on a dataset specific to guava leaves, this model excels in recognizing and classifying various diseases affecting guava foliage.
 
 #### Guava Fruit Disease Classification using Custom CNN Model
 
-The custom CNN model for guava fruit disease classification also attains an accuracy of around 90%. Trained on a diverse dataset of guava fruit images, this model excels in identifying and categorizing diseases affecting guava fruits.
+For guava fruit disease classification, two models are employed:
+
+- DenseNet121: Achieving an accuracy of 90%, this model contributes significantly to the accurate identification and categorization of diseases affecting guava fruits.
+
+- Custom CNN Model: With a commendable accuracy of 80%, the custom CNN model enhances the overall disease detection capabilities, offering an additional layer of classification for guava fruit diseases.
+
 
 
 ## Table of Contents
