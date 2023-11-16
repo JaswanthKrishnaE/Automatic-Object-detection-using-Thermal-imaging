@@ -31,9 +31,9 @@ The custom CNN model for guava leaf disease classification achieves an outstandi
 
 For guava fruit disease classification, two models are employed:
 
-- DenseNet121: Achieving an accuracy of 90%, this model contributes significantly to the accurate identification and categorization of diseases affecting guava fruits.
+- **DenseNet121**: Achieving an accuracy of 90%, this model contributes significantly to the accurate identification and categorization of diseases affecting guava fruits.
 
-- Custom CNN Model: With a commendable accuracy of 80%, the custom CNN model enhances the overall disease detection capabilities, offering an additional layer of classification for guava fruit diseases.
+- **Custom CNN Model**: With a commendable accuracy of 80%, the custom CNN model enhances the overall disease detection capabilities, offering an additional layer of classification for guava fruit diseases.
 
 
 
@@ -52,8 +52,7 @@ For guava fruit disease classification, two models are employed:
 To set up the project, follow these steps:
 ### 1. Clone the git repository
 ```bash
-[git clone https://github.com/JaswanthKrishnaE/Automatic-Object-detection-using-Thermal-imaging.git
-cd Automatic-Object-detection-using-Thermal-imaging](https://github.com/JaswanthKrishnaE/Automatic-Object-detection-using-Thermal-imaging.git)
+git clone https://github.com/JaswanthKrishnaE/Automatic-Object-detection-using-Thermal-imaging.git
 ```
 ### 2. Create a Virtual Environment
 ```bash
