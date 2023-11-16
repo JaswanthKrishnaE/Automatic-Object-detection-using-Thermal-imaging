@@ -2,6 +2,25 @@
 
 ## Overview
 
+This Guava Disease Detection project employs a multi-model approach to identify and classify diseases in guava leaves and fruits. Each model contributes to a specific aspect of the detection process.
+
+#### Thermal Object Detection with YOLO v8
+
+Utilizing YOLO v8, the project achieves robust thermal object detection with an mAP of 67% recall of 96.9%. The model excels in identifying guava fruits in thermal images, laying the foundation for subsequent disease classification.
+
+#### Guava Fruit Disease Classification with DenseNet121
+
+Fine-tuning DenseNet121 results in a guava fruit disease classification model boasting an accuracy of around 90%. Leveraging the efficiency of DenseNet's feature extraction, the model accurately identifies and categorizes diseases affecting guava fruits.
+
+#### Guava Leaf Disease Classification using Custom CNN Model
+
+The custom CNN model for guava leaf disease classification achieves an accuracy of approximately 90%. Trained on a dataset specific to guava leaves, this model excels in recognizing and classifying various diseases affecting guava foliage.
+
+#### Guava Fruit Disease Classification using Custom CNN Model
+
+The custom CNN model for guava fruit disease classification also attains an accuracy of around 90%. Trained on a diverse dataset of guava fruit images, this model excels in identifying and categorizing diseases affecting guava fruits.
+
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
