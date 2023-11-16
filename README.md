@@ -43,7 +43,6 @@ For guava fruit disease classification, two models are employed:
 3. [Folder Structure](#folder-structure)
 4. [Dataset](#dataset)
 5. [Results](#results)
-6. [Trained Models](#results)
 
 ## Introduction
 
@@ -111,16 +110,3 @@ For guava leaf diseases, the Guava Leaf Disease Dataset contains images of leave
 ## Results
 
 The results of each model can be found in the `/Results` directory. This directory contains detailed output files, logs, or any relevant information generated during the evaluation or testing of the models. Users can explore this directory to analyze the performance and outcomes of the implemented models.
-
-## Trained Models
-
-All trained models are conveniently compressed and zipped into the `models.zip` file. This archive contains the serialized versions of the models, allowing users to easily download and deploy them for various applications. The compressed file provides a compact and organized way to distribute or share the trained models without the need to transfer individual files.
-
-To use the trained models, follow these steps:
-
-1. **Extract the Models:**
-    ```bash
-    unzip models.zip
-    ```
-2. **Integrate the Models:**
-    Use the extracted model files in your applications or projects for inference or further training.
